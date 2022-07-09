@@ -2,7 +2,7 @@
 
 `xdg-direct` was written to deal with the situation where you click on a link, _and it opens the browser in the window with the wrong profile_. And no, I don't want to click on which profile to open a link in each time.
 
-The way it deals with this is by acting as a glob-based "router" between `xdg-open` and the browser. It scans the opened url for patterns defined in the config (`/etc/xdg-direct.config`) and runs the command associated with the url. See [usage](## Usage) for configuration examples.
+The way it deals with this is by acting as a glob-based "router" between `xdg-open` and the browser. It scans the opened url for patterns defined in the config (`/etc/xdg-direct.config`) and runs the command associated with the url. See the `Usage` section for examples.
 
 ## Usage
 
