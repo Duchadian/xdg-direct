@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Name=xdg-direct
+Exec=/usr/local/bin/xdg-direct %u
+StartupNotify=false
+MimeType=x-scheme-handler/http;x-scheme-handler/https;

@@ -1,0 +1,7 @@
+default_command: "firefox"
+mappings:
+  - url: "*.wikipedia.org/*"
+    cmd: "firefox"
+    args:
+      - "--ProfileManager"
+debug_mode: false
